@@ -5,7 +5,10 @@ Replace `<telegram-token>` with your telegram bot-token.
 Replace `<telegram-user-id>` with your `id` on telegram.
 Replace `<itch.io-token>` with your itch.io API-token.
 ```
-$ git pull https://github.com/Tch1b0/itchio-notifier
+$ git clone https://github.com/Tch1b0/itchio-notifier
+```
+```
+$ cd itchio-notifier
 ```
 ```
 $ echo <telegram-token> > token/telegram.txt

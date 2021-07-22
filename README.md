@@ -1,5 +1,7 @@
 # itchio-notifier
 
+![ExampleMessage](./media/ExampleMessage.png)
+
 ## Purpose
 This telegram bot notifies you **every day** at the same time(or on command) about your current games and their analytics.
 

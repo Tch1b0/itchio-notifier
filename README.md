@@ -1,5 +1,12 @@
 # itchio-notifier
 
+## Purpose
+This telegram bot notifies you **every day** at the same time(or on command) about your current games and their analytics.
+
+## Adjustments
+Currently, the bot notifies the User at **9 AM CEST**.<br>
+I am planning to let the User be able to change that.  
+
 ## Setting up
 Replace `<telegram-token>` with your telegram bot-token.
 Replace `<telegram-user-id>` with your `id` on telegram.

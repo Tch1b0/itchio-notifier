@@ -47,7 +47,7 @@ def informational_message(_) -> None:
 
 # Command for calling the function via a command
 def call_informational_message(update: Update, context: CallbackContext):
-    if update.effective_user.id == user_id:
+    if str(update.effective_user.id) == user_id:
         informational_message(context)
 
 updater = Updater(telegram_token)
